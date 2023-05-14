@@ -9,10 +9,10 @@ import jakarta.persistence.Table;
 public class CloudVendor
 {
     @Id
-   private String vendorId;
-   private String vendorName;
-   private String vendorAddress;
-   private String vendorPhoneNumber;
+    private String vendorId;
+    private String vendorName;
+    private String vendorAddress;
+    private String vendorPhoneNumber;
 
     public CloudVendor(String vendorId, String vendorName, String vendorAddress, String vendorPhoneNumber) {
         this.vendorId = vendorId;
